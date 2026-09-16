@@ -1,0 +1,9 @@
+/target
+**/*.rs.bk
+*.gguf
+*.bin
+*.safetensors
+.DS_Store
+__pycache__/
+*.pyc
+.venv/

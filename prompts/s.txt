@@ -1,0 +1,1 @@
+Explain in a few sentences why memory bandwidth, rather than raw arithmetic throughput, is usually the limiting factor when a large language model generates text one token at a time on a consumer laptop.

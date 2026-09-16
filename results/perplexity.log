@@ -1,0 +1,9 @@
+# 2026-08-17 18:09 windows=128
+# 2026-08-17 18:11 windows=128
+# 2026-08-17 18:14 windows=128
+model=Llama-3.2-1B-Instruct-BF16.gguf acts=f32 ctx=512 windows=128 scored_tokens=32768 nll_per_token=2.684758 ppl=14.6547 time_s=858.3
+model=Llama-3.2-1B-Instruct-Q8_0.gguf acts=f32 ctx=512 windows=128 scored_tokens=32768 nll_per_token=2.684941 ppl=14.6573 time_s=1056.8
+model=Llama-3.2-1B-Instruct-Q8_0.gguf acts=int8(where applicable) ctx=512 windows=128 scored_tokens=32768 nll_per_token=2.685668 ppl=14.6680 time_s=607.2
+model=Llama-3.2-1B-Instruct-Q8_0.gguf acts=int8(where applicable) ctx=512 windows=128 scored_tokens=32768 nll_per_token=2.685668 ppl=14.6680 time_s=575.6
+model=Llama-3.2-1B-Instruct-Q4_0-pure.gguf acts=int8(where applicable) ctx=512 windows=128 scored_tokens=32768 nll_per_token=2.842521 ppl=17.1590 time_s=552.4
+model=Llama-3.2-1B-Instruct-Q4_0-pure.gguf acts=f32 ctx=512 windows=128 scored_tokens=32768 nll_per_token=2.841110 ppl=17.1348 time_s=2047.7

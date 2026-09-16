@@ -1,0 +1,17 @@
+[package]
+name = "squirrel-rs"
+version = "0.1.0"
+edition = "2021"
+default-run = "squirrel-rs"
+
+[features]
+default = ["use-optimized-ops"]
+use-optimized-ops = []
+
+[dependencies]
+half = "2.7.1"
+memmap2 = "0.9.9"
+num_enum = "0.7"
+rayon = "1"
+tokenizers = "0.23.1"
+strum = { version = "0.28.0", features = ["derive"] }

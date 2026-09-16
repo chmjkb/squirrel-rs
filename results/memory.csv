@@ -1,0 +1,5 @@
+# 2026-08-02 14:47  commit 80c2f21  tokens=100
+format,file_mb,peak_rss_mb,footprint_mb
+Q4_0,670,803,123.5
+Q8_0,1259,1388,115.7
+BF16,2364,2478,117.2
